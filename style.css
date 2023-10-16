@@ -1,34 +1,40 @@
+/* Define estilos globais para zerar margens e preenchimentos em todos os elementos */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* Estilos para o cabeçalho h1 */
 h1 {
-    margin: 40px 0 40px 0;
+    margin: 40px 0 40px 0; /* Margem superior e inferior de 40px, texto branco */
     color: white;
 }
 
+/* Estilos para o corpo da página */
 body {
-    background-color: black;
+    background-color: black; /* Fundo preto */
 }
 
+/* Estilos para os elementos com classes 'box' e 'form' */
 .box,
 form {
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    gap: 20px; /* Espaçamento entre elementos de 20px */
+    display: flex; /* Exibe os elementos em linha */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
 }
 
+/* Estilos para os campos de entrada 'input' */
 input {
-    width: 250px;
-    height: 30px;
-    border-radius: 30px;
-    padding: 0 15px 0 15px;
+    width: 250px; /* Largura de 250px */
+    height: 30px; /* Altura de 30px */
+    border-radius: 30px; /* Borda arredondada */
+    padding: 0 15px 0 15px; /* Preenchimento interno nas laterais */
 }
 
+/* Estilos para o botão */
 button {
-    width: 150px;
-    height: 25px;
+    width: 150px; /* Largura de 150px */
+    height: 25px; /* Altura de 25px */
 }
